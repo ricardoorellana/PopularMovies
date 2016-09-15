@@ -166,6 +166,6 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<L
 
     private void getPreferences() {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-        prefSortOption = sharedPreferences.getString(getString(R.string.pref_sort_key), "");
+        prefSortOption = sharedPreferences.getString(getString(R.string.pref_sort_key), getString(R.string.pref_default_value));
     }
 }
