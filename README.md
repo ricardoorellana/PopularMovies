@@ -1,8 +1,8 @@
-# PopularMovies
+# PopularMovies - AND.
 
 ### Description:
 * It's an educational project to practice API calls.
-* Fetchs data from MoviesDB - ADN.
+* Fetchs data from MoviesDB
 
 
 Note:
